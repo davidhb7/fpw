@@ -1,0 +1,15 @@
+img{
+  margin-left: -50px;
+  width: 200px;
+  height: 100px;
+}
+
+nav.navbar {
+  background-color: orange;
+}
+ul{
+  color: aliceblue;
+}
+nav{
+  color: aliceblue;
+}

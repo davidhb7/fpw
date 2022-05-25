@@ -10,6 +10,7 @@ export class GestursComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
 }

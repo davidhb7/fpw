@@ -6,7 +6,7 @@ import { GestursComponent } from './pantallas/gesturs/gesturs.component';
 
 const routes: Routes = [
   {
-    path:'', redirectTo:'/menu', pathMatch:'full'
+    path:'', redirectTo:'/auth', pathMatch:'full'
   },
   {
     path:'menu',
@@ -16,6 +16,12 @@ const routes: Routes = [
     path: 'pantallas',
     loadChildren:()=> import ('./pantallas/pantallas.module').then(m=>m.PantallasModule),
   },
+  {
+    path: 'auth',
+    loadChildren:()=> import('./auth/auth.module').then(m=>m.AuthModule),
+  },
+
+
 
   {path: 'gesturs', component: GestursComponent},
 
